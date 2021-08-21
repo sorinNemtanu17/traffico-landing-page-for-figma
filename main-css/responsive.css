@@ -1,0 +1,161 @@
+@media only screen and (max-width: 1285px) {
+  body {
+    min-width: 718px;
+  }
+  #about,
+  .how-to,
+  .social-media {
+    margin: 0 auto;
+  }
+  #about {
+    padding: 0 20px;
+  }
+  .how-to-apply-text {
+    margin-left: 0px;
+  }
+  #faqs {
+    margin-left: 75px;
+  }
+  .footer-menu {
+    margin: 0 auto;
+  }
+  .form-container {
+    margin-left: 100px;
+  }
+}
+@media only screen and (max-width: 1190px) {
+  .Scene {
+    background: url(/images/Scene.png) top no-repeat;
+    background-size: cover;
+  }
+  .main-nav {
+    margin-left: 100px;
+  }
+  .top-heading {
+    width: calc(741px - 25%);
+    font-size: 70px;
+    margin: 150px 0 0 100px;
+  }
+
+  .get-started {
+    margin: 0 0 0 100px;
+  }
+
+  #faqs {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+  }
+  .faqs-background {
+    width: 80%;
+  }
+  div.container {
+    flex-wrap: wrap;
+    margin-left: auto;
+    width: 90%;
+  }
+  .first-column,
+  .second-column {
+    flex: 0 1 45%;
+  }
+  .btn-container {
+    flex: 0 1 45%;
+    margin: 0 80px 0 auto;
+    padding: 0 35px 0 150px;
+  }
+
+  .main-nav {
+    max-width: 80%;
+    position: relative;
+  }
+  .main-menu {
+    background-color: #ee4c4729;
+    position: absolute;
+    flex-direction: row;
+    padding-left: 50px;
+    top: 0;
+    right: 0;
+    margin: 0;
+    width: 100%;
+    transform: scaleY(0);
+    opacity: 0;
+  }
+  .main-menu-open {
+    top: 100px;
+    transform: scaleY(1);
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  .main-menu-button {
+    display: block;
+    width: 158px;
+    height: 60px;
+    background: #fff;
+    margin-left: auto;
+    border: 0;
+    border-radius: 5px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ee4d47;
+  }
+
+  .footer-nav {
+    margin: 0 215px;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  #about {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  .about-us {
+    align-self: auto;
+  }
+  #how-to {
+    margin: 0 auto;
+    height: auto;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .faqs-illustration {
+    grid-column: 2 / 4;
+    grid-row: 2 / -1;
+  }
+  div.container {
+    flex-direction: column;
+    margin: 0 auto;
+    width: 50%;
+  }
+  .btn-container {
+    width: 600px;
+    margin: 0 0 0 auto;
+    flex: 0 1 auto;
+    padding: 0 35px 0 150px;
+  }
+  .form-container {
+    margin-left: 20px;
+  }
+  .vertical-bar {
+    display: none;
+  }
+  .footer-nav {
+    margin: 0 20px;
+  }
+  .footer-menu {
+    margin: 0 200px;
+  }
+  @media only screen and (max-width: 950px) {
+    .top-heading {
+      width: calc(741px - 25%);
+      font-size: 65px;
+      margin-top: 200px;
+    }
+    .social-media {
+      margin: 0;
+    }
+  }
+}
